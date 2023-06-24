@@ -123,3 +123,28 @@ h3
     color: var(--amarilloOscuro);
     transition: 1s;
 }
+
+
+
+
+/*
+---------------------------------------------------------------------------------------
+                Footer
+---------------------------------------------------------------------------------------
+*/
+
+.footer
+{
+    background-color: var(--moradoOscuro);
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.footer__texto
+{
+    font-family: var(--fuente2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffffa8;
+}

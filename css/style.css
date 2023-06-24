@@ -44,6 +44,7 @@ p
     font-size: 1.8rem;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--blanco);
+    margin-top: 2.5rem;
 }
 
 a
@@ -67,7 +68,8 @@ img
 h1, h2, h3
 {
     text-align: center;
-    color: var(--blanco);
+    color: var(--amarilloOscuro);
+    margin-top: 2.5rem;
 }
 
 h1 
@@ -226,6 +228,53 @@ h3
 
 
 
+/*
+---------------------------------------------------------------------------------------
+                nosotros
+---------------------------------------------------------------------------------------
+*/
+
+.nosotros
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    margin: 0 5rem;
+}
+
+.nosotros__imagen
+{
+    border-radius: 8vh;
+}
+
+
+/*
+--------------------Redes-----------------------------------------------------------------      
+*/
+
+.bloques
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    
+}
+
+.bloque
+{
+    text-align: center;
+}
+
+.bloque .img__logo
+{
+    width: 10rem;
+    height: 10rem;
+}
+
+
+
+
+
 
 /*
 ---------------------------------------------------------------------------------------
@@ -236,8 +285,9 @@ h3
 .footer
 {
     background-color: var(--moradoOscuro);
-    padding: 2rem;
-    margin-top: 5rem;
+    padding: 0 1rem;
+    margin: 5rem .8rem .8rem .8rem;
+    border-radius: 12rem;
 }
 
 .footer__texto
@@ -290,7 +340,7 @@ h3
 ---------------------------------------------------------------------------------------
 */
 
-@media (max-width: 600px) { 
+@media (max-width: 700px) { 
     
 
 
@@ -350,6 +400,49 @@ h3
     grid-row: 7 / 8;
 }
 
+
+/*
+---------------------------------------------------------------------------------------
+                nosotros
+---------------------------------------------------------------------------------------
+*/
+
+.nosotros
+{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+    
+}
+
+.nosotros__imagen
+{
+    grid-row: 1 ;
+}
+
+
+/*
+--------------------Redes-----------------------------------------------------------------      
+*/
+
+.bloques
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.bloque
+{
+    text-align: center;
+}
+
+.bloque .img__logo
+{
+    width: 10rem;
+    height: 10rem;
+}
 
 
 

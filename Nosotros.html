@@ -3,17 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
-    <link rel="stylesheet" href="style.css">
+    <title>TiendaWeb</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-    <header>
+    
+    <header class="header">
         <a href="index.html">
-            <img src="img/img1.png" alt="">
+            <img class="header__logo" src="img/img1.png" alt="Logo">
         </a>
     </header>
-    <H1>
-        Nosostros
-    </H1>
+
+    <nav class="nav">
+        <a class="nav__enlace " href="index.html">Tienda</a>
+        <a class="nav__enlace nav__enlace--activo" href="Nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Nosotros</h1>
+
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic voluptatum consectetur reiciendis modi quidem, veritatis ipsum magni rerum ab sit blanditiis. Consequuntur cum officia maiores velit quos inventore perspiciatis voluptatibus corporis velit aspernatur eum, similique soluta nemo cum aliquam eligendi quibusdam dicta nobis ab totam reiciendis?
+                    Qua et minus?
+                    </p>
+
+                    <!-- <hr> -->
+                    <p>Quidem, quis aut eveniet iure, provident tenetur perspiciatis qui beatae in non cumque laudantium illo totam expedita et culpa rem sint! Quia voluptate accusamus ipsa mollitia, maiores ab dicta adipisci!
+                        Eius magni tempora laudantium odit est molesciis exercitationem totam quis explicabo repellendus hic facilis harum!
+                        Invento beatae? Eaque!</p>
+            </div>
+
+            <img src="img/casco3.jpg" alt="nosotros" class="nosotros__imagen">
+        </div>
+    </main>
+
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo">¿Por qué comprar con nosotros?</h2>
+
+        <div class="bloques">
+            <div class="bloque">
+                <a href="Nosotros.html"><img class="img__logo" src="img/logo1.png" alt="por que comprar" ></a>
+                
+                <h3 class="bloque__titulo">WhatsApp</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            </div> <!-- bloque -->
+
+            <div class="bloque">
+                <a href="Nosotros.html"><img class="img__logo" src="img/logo2.png" alt="por que comprar" ></a>
+                
+                <h3 class="bloque__titulo">Youtube</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            </div> <!-- bloque -->
+
+            <div class="bloque">
+                <a href="Nosotros.html"><img class="img__logo" src="img/logo3.jpg" alt="por que comprar" ></a>
+                
+                <h3 class="bloque__titulo">Twitter</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            </div> <!-- bloque -->
+
+            <div class="bloque">
+                <a href="Nosotros.html"><img class="img__logo" src="img/logo4.jpg" alt="por que comprar" ></a>
+                
+                <h3 class="bloque__titulo">Facebook</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            </div> <!-- bloque -->
+
+
+        </div> <!-- bloques -->
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">
+            Front End 2023&copy;
+        </p>
+    </footer>
 </body>
 </html>

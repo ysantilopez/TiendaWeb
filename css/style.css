@@ -272,6 +272,69 @@ h3
 }
 
 
+/*
+---------------------------------------------------------------------------------------
+                Productos
+---------------------------------------------------------------------------------------
+*/
+
+.moto
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    justify-content: center;
+}
+
+.moto .moto__img
+{
+    width: 75vh;
+}
+
+.img 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form
+{}
+
+.formulario__campo
+{
+   /* border-color: var(--moradoOscuro);
+    border-width: 1rem;
+    border-style: solid; Esto es lo mismo solo que en una linea*/
+
+    border: 1rem solid var(--moradoOscuro); 
+    background: var(--morado);
+    color: var(--blanco);
+    margin: 3rem;
+}
+
+.formulario__boton
+{
+    background-color: var(--amarilloOscuro);
+    width: 50vh;
+    height: 10vh;
+    border-radius: 6rem;
+    font-size: 2.5rem; 
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 8rem;
+
+}
+
+.formulario__boton:hover
+{
+    font-size: 2.7rem ;
+    cursor: pointer;
+    background-color: rgb(16, 90, 119);
+    color: var(--blanco);
+    transition: .6s;
+    font-weight: 900;
+}
+
 
 
 
@@ -340,7 +403,7 @@ h3
 ---------------------------------------------------------------------------------------
 */
 
-@media (max-width: 700px) { 
+@media (max-width: 800px) { 
     
 
 
@@ -444,6 +507,64 @@ h3
     height: 10rem;
 }
 
+
+/*
+---------------------------------------------------------------------------------------
+                Productos
+---------------------------------------------------------------------------------------
+*/
+
+.moto
+{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 2rem;
+}
+
+.moto .moto__img
+{
+    width: 36rem;
+   
+    justify-content: center;
+    
+}
+
+.moto__contenido p
+{
+    
+    margin: 2rem;
+    padding: 4rem;
+}
+
+.formulario__campo
+{
+    border: 1rem solid var(--moradoOscuro); 
+    background: var(--morado);
+    color: var(--blanco);
+    margin: 1rem 0 3rem 8rem;
+}
+
+.formulario__boton
+{
+    background-color: var(--amarilloOscuro);
+    width: 36rem;
+    height: 10vh;
+    border-radius: 6rem;
+    font-size: 2.5rem; 
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 8rem;
+
+}
+
+.formulario__boton:hover
+{
+    font-size: 2.7rem ;
+    cursor: pointer;
+    background-color: rgb(16, 90, 119);
+    color: var(--blanco);
+    transition: .6s;
+    font-weight: 900;
+}
 
 
 }
